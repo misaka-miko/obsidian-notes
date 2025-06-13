@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "Hello world!"
             }
+          },
+          {
+            "id": "fe8ddaa1f763af8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hello cargo!.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hello cargo!"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "76a04b6d07314cc5",
@@ -198,10 +213,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e4c2388bb7836ce",
+  "active": "fe8ddaa1f763af8a",
   "lastOpenFiles": [
-    "Pacman Basics.md",
     "Hello world!.md",
+    "Hello cargo!.md",
+    "Pacman Basics.md",
     "Lua chunks.md",
     "欢迎.md"
   ]
