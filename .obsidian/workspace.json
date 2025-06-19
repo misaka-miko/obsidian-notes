@@ -13,48 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lua chunks.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lua chunks"
-            }
-          },
-          {
-            "id": "d4960d42b4e56b82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pacman Basics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Pacman Basics"
-            }
-          },
-          {
-            "id": "0e4c2388bb7836ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hello world!.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hello world!"
-            }
-          },
-          {
-            "id": "fe8ddaa1f763af8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Hello cargo!.md",
                 "mode": "source",
                 "source": false
@@ -62,9 +20,23 @@
               "icon": "lucide-file",
               "title": "Hello cargo!"
             }
+          },
+          {
+            "id": "2f9873cf596ec6f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lua chunks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lua chunks"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "76a04b6d07314cc5",
@@ -213,12 +184,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe8ddaa1f763af8a",
+  "active": "2f9873cf596ec6f2",
   "lastOpenFiles": [
-    "Hello world!.md",
+    "Variables and mutability.md",
     "Hello cargo!.md",
-    "Pacman Basics.md",
+    "morality.md",
     "Lua chunks.md",
+    "未命名",
+    "Pacman Basics.md",
+    "Hello world!.md",
     "欢迎.md"
   ]
 }
