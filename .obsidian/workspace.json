@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ownership.md",
+                "file": "Rust/Ownership.md",
                 "mode": "source",
                 "source": false
               },
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欢迎.md",
+                "file": "Rust/Ownership.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "欢迎 的大纲"
+              "title": "Ownership 的大纲"
             }
           },
           {
@@ -162,11 +162,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,21 +180,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ddc7a339f2e4962",
+  "active": "a98338c441b87a66",
   "lastOpenFiles": [
-    "Ownership.md",
-    "Hello cargo!.md",
-    "Variables and mutability.md",
-    "Shadowing.md",
-    "Data types.md",
-    "Functions.md",
-    "Comments.md",
-    "Control Flow.md",
+    "Rust",
+    "Rust/Ownership.md",
+    "Rust/Hello cargo!.md",
+    "Rust/Variables and mutability.md",
+    "Rust/Shadowing.md",
+    "Rust/Data types.md",
+    "Rust/Functions.md",
+    "Rust/Comments.md",
+    "Rust/Control Flow.md",
     "Lua chunks.md",
     "morality.md",
-    "未命名",
     "Pacman Basics.md",
-    "Hello world!.md",
+    "Rust/Hello world!.md",
     "欢迎.md"
   ]
 }
