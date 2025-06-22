@@ -26,6 +26,7 @@ let guess: u32 = "42".parse().expect("Not a number!");
 | octal             | 0o77        |
 | binary            | ob1111_0000 |
 | byte( `u8` only ) | ` b`A`  `   |
+**Idea** 其实byte这个玩意就是C风格的字符char，因为我们rust的字符类型是支持unicode的，占用4字节，我们干脆也不把原本的u8应该表示的整数和字符放一起了，而是单独开一个表示方法
 怎么处理整型溢出
 省流，用这四种标准库的方法
 - wrapping_*
