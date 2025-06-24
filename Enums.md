@@ -80,3 +80,5 @@ enum Option<T> {
 ```
 Option这个枚举类给我们什么启示？
 A：有Option类型的变量是有可能为None值的，我们需要handle这种情况，我们要显式的处理 `Some(T)` 和 `None` 不然编译器会报错
+
+[Option的文档](https://doc.rust-lang.org/stable/std/option/enum.Option.html)
