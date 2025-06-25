@@ -1,3 +1,5 @@
+*related note*:
+[[if let]]
 省流， `match` 就是 rust 版的 switch-case，但是有更多feature
 
 # Match Enum
