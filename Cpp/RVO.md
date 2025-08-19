@@ -1,4 +1,4 @@
-# What is RVO?
+# What is `RVO` ?
 - `RVO` : 是 **Return Value Optimization** 的缩写
 - `RVO` 所干的事就是允许直接在接收对象的内存位置构造返回值
 - `RVO` 的实现是 `implementation defined`。To be more detailed:
@@ -24,9 +24,10 @@ int main() {
 ```
 上述代码中，理论上有 一次构造加两次拷贝，开启 `RVO` 编译器会直接在`e1`处原地构造 `MyObj`
 
-# Types of RVO
+---
+# Types of `RVO`
 
-## NRVO
+## `NRVO`
 ```cpp
 void do_something() {
 	MyObj a(3);
@@ -34,7 +35,7 @@ void do_something() {
 }
 ```
 
-## (U)RVO
+## `(U)RVO`
 ```cpp 
 void do_something() {
 	return MyObj(3);
@@ -43,6 +44,7 @@ void do_something() {
 
 **SOMETHING Evil**: 正如我们之前提到的，`RVO`，尤其是 `NRVO` 只是编译器可以选择的feature，我们可以通过 `-fno-elide-constructors`这个编译选项关掉 `RVO` 优化
 
+---
 # When NO `RVO`？
 
 - With flag `-fno-elide-constructors` 
