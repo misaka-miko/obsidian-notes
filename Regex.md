@@ -3,6 +3,14 @@
 - `*` : match any number of the previous (including **ZERO**)  
 - `+` : match any number of the previous
 - `$` : end of the line
+- `^` : beginning of the line
+- `\S` : any non-whitespace character
+- `\s` : any whitespace character
+- `?` : optional
+- `\` : escape something
+- `[a-z]` : any lowercase letter
+- `[A-Z]` : any uppercase letter
+- `[A-Za-z]` :  any letter
 
 **哪里去尝试**：使用 `grep` `sed` `awk` ...
 
