@@ -18,3 +18,8 @@ Looking at **"BIG QUESTIONS"**  through the lengths of modern technology
 1. Escapism
 2. Simulacrum
 3. Substrate
+
+---
+# Implication from Zhuang Zhou
+- Dream world = virtual world = simulation 
+- Materiality/ Illusion
