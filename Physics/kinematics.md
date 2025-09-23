@@ -38,7 +38,7 @@ $$
 # 高维空间
 3+1维时空中的坐标 $(\vec{r}, t)$ 
 $$
-\vec{r} = x \vec{i} + y \vec{j} +z\vec{k}
+\vec{r} = x \hat{i} + y \hat{j} +z\hat{k}
 $$
 矢量的性质
 - 大小 $|\vec{r}|$

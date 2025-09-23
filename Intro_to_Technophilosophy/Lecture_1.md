@@ -23,3 +23,10 @@ Looking at **"BIG QUESTIONS"**  through the lengths of modern technology
 # Implication from Zhuang Zhou
 - Dream world = virtual world = simulation 
 - Materiality/ Illusion
+
+---
+# Skeptical argument
+**Premises** :
+1. We can't *know* whether we are in virtual reality
+2. Nothing in virtual is real
+**Conclusion**: We cannot *know* whether anything is real
