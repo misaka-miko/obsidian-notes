@@ -12,6 +12,7 @@ $$
 \left( A \cap B\right)^{c} = A^c \cup B^c 
 $$
 
+---
 # Sample Space & Events
 ## Events and occurrences
 - sample space: $S$
