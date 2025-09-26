@@ -11,3 +11,6 @@ If $k \ll n$, $\left( 1-\frac{1}{n} \right) \approx e^{-\frac{1}{n}}$
 $$
 P(A^c) = 1 \times e^{- \frac{1}{n}} \times \dots \times e^{- \frac{k-1}{n}} \approx e^{- \frac{k^{2}}{2n}}
 $$
+
+# Application
+- hash collision
