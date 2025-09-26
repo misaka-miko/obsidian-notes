@@ -21,3 +21,15 @@ $$
 $$
 ## example: generalized birthday problem
 [[generalized_birthday_problem]]
+
+---
+# Unordered Sampling without Replacement
+- also called **Combination**
+- k-combination: choose a k-element subset of a set with $n$ elements.
+
+> For $k \le n$, we have
+
+$$
+\binom{n}{k} = \frac{n!}{k!(n-k)!}
+$$
+For more about binomial theorem
