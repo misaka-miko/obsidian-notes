@@ -34,3 +34,13 @@ $$
 $$
 For more about binomial theorem, refer to [[binomial_theorem]]
 For more information about **story proof**, refer to [[story_proof]]
+
+---
+# Unordered Sampling with Replacement
+**Equivalent Problem**
+$$
+x_{1}+x_{2}+\dots+x_{n} = k, \forall n > 0,k \ge 0, x_{i} \geq 0
+$$
+- $x_{i}$ : 第i个物体被选中的次数
+- 总共被选中的次数是$k$
+The number of the **non-negative** solution vectors is $\binom{n+k-1}{n-1}$
