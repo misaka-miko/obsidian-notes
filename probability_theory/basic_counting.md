@@ -32,4 +32,5 @@ $$
 $$
 \binom{n}{k} = \frac{n!}{k!(n-k)!}
 $$
-For more about binomial theorem
+For more about binomial theorem, refer to [[binomial_theorem]]
+For more information about **story proof**, refer to [[story_proof]]
