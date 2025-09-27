@@ -2,7 +2,7 @@
 
 |                     | order matters       | order not matter     |
 | ------------------- | ------------------- | -------------------- |
-| with replacement    | $n^{k}$             | $\binom{n+k-1}{k-1}$ |
+| with replacement    | $n^{k}$             | $\binom{n+k-1}{n-1}$ |
 | without replacement | $\frac{n!}{(n-k)!}$ | $\binom{n}{k}$       |
 
 ---
