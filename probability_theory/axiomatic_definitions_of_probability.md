@@ -28,3 +28,7 @@ $$
 $$
 \Leftrightarrow P(\overline{A_{1}\cap\dots \cap A_{n}}) \leq \sum_{j=1}^{n} (1- P(A_{j})) = \sum_{j=1}^{n}P(\overline{A_{j}})
 $$
+**Theorem**: For any events $A_{1}, A_{2}, \dots$, we have
+$$
+P\left( \bigcup^{\infty}_{j=1} A_{j} \right) \leq \sum_{j=1}^{\infty} P(A_{j})
+$$
