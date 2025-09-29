@@ -33,3 +33,7 @@ $$
 - $A$ implies $B$: $A \subseteq B$
 - $A$ and $B$ are mutually exclusive: $A \cap B = \emptyset$
 - $A_{1},  \ldots, A_{n}$ are a partition of $S$: $A_{1} \cup \ldots \cup A_{n}$, $A_{i} \cap A_{j} = \emptyset$ for $i \neq j$
+
+---
+# Conditional Probability
+- the **conditional** probability of $A$ given $B$: $P(A|B)$
