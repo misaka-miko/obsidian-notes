@@ -1,3 +1,9 @@
+---
+tags:
+  - knowledge
+  - script
+  - matching
+---
 # Quick Reference
 - `.` : any one character
 - `*` : match any number of the previous (including **ZERO**)  

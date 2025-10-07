@@ -1,3 +1,8 @@
+---
+tags:
+  - CA
+  - knowledge
+---
 # Six Great Ideas in CA
 1. Abstraction **(Layers of Representation)**
 2. Moore's Law

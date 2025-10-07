@@ -1,3 +1,9 @@
+---
+tags:
+  - knowledge
+  - vim
+---
+
 # Same operation on multiple lines
 有时候我们想要对很多行文本实行相同的操作，比如：
 - html link
