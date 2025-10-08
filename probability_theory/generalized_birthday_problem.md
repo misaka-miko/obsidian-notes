@@ -1,3 +1,10 @@
+---
+tags:
+  - knowledge
+  - probability-theory
+  - example
+---
+Theorem:
 - Each of $k$ people has a random number drawn from $n$ values.
 - If the probability that at least two people have the same numbers $50\%$, then $k \approx 1.18 \sqrt{ n }$
 

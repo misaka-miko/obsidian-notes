@@ -1,5 +1,11 @@
+---
+tags:
+  - knowledge
+  - probability-theory
+  - example
+---
 # The team captain
-**Goal**: For any positve integers $n$ and $k$ with $k \le n$
+**Goal**: For any positive integers $n$ and $k$ with $k \le n$
 $$
 n \binom{n-1}{k-1} = k\binom{n}{k}
 $$

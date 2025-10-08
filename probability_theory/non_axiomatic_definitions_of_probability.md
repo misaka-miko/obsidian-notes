@@ -1,5 +1,10 @@
+---
+tags:
+  - knowledge
+  - probability-theory
+---
 # Geometric Probability
-Given a sample space $S$, the probability of event $A$ ocurring is $P(A) = \frac{M(A)}{M(S)}$, where $M$ is the measure of geometric region
+Given a sample space $S$, the probability of event $A$ occurring is $P(A) = \frac{M(A)}{M(S)}$, where $M$ is the measure of geometric region
 
 ## example: 1-dimensional geometric probability
 $X$ is a random real number between 1 and 2. What is the probability that $X$ is equal to 1.5?

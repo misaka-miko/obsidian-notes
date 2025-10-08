@@ -1,3 +1,8 @@
+---
+tags:
+  - knowledge
+  - probability-theory
+---
 # Binomial Theorem
 $$
 (x+y)^{n} = \sum ^{n}_{k=0} \binom{n}{k} x^{k}y^{n-k}
@@ -11,6 +16,6 @@ $$
 
 ## Theorem
 $$
-(x_{1}+x_{2}+\dots+x_{r})^{n} = \sum_{n_{1},n_{2},\dots ,n_{r} \ge 0}x_{1}^{n_{1}}x_{2}^{n_{2}}\dots x_{r}^{n_{r}}
+(x_{1}+x_{2}+\dots+x_{r})^{n} = \sum_{n_{1},n_{2},\dots ,n_{r} \ge 0}\binom{n}{n_{1},n_{2}\dots n_{r}}x_{1}^{n_{1}}x_{2}^{n_{2}}\dots x_{r}^{n_{r}}
 $$
 where $n_{1}+n_{2}+\dots+n_{r} = n$
