@@ -15,3 +15,22 @@ $$
 P(A) = P(A|B), P(B) = P(B|A)
 $$
 If you are not familiar with conditional probability, refer to [[conditional_probability]].
+
+# Independence vs. Disjoint 
+区分一下这两个容易混淆的概念：**独立性**与**互斥性**
+**Example**：丢一个十面骰子
+$A: \text{outcome is less than 7}$
+$B: \text{outcome is an even number}$
+$$
+P(A) = \frac{3}{5}, P(B) = \frac{1}{2}, P(A \cap B) = \frac{3}{10}
+$$
+$$
+P(A \cap B) = P(A) P(B)
+$$
+满足独立性，但是显然 $A$, $B$ 并非互斥
+
+类似的互斥并不意味着独立
+
+# Properties
+> If $A$ and $B$ are independent, then $A^{c}$ and $B$ are independent, $A$ and $B^{c}$ are independent, 
+> $A^{c}$ and $B^{c}$ are independent
