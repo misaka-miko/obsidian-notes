@@ -1,7 +1,6 @@
 ---
 tags:
   - knowledge
-  - probability-theory
   - reference
   - utility
 ---

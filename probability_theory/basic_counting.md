@@ -1,3 +1,8 @@
+---
+tags:
+  - knowledge
+  - probability-theory
+---
 # Overall table
 
 |                     | order matters       | order not matter     |
