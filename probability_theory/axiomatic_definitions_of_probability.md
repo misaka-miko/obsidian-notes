@@ -1,7 +1,12 @@
+---
+tags:
+  - knowledge
+  - probability-theory
+---
 Given a sample space $S$, the class of subset of $S$ satisfy the following axioms
 - $S$ is an event.
 - For every event $A$, the complement $A^{c}$ is an event.
-- For every sequence of events $A_{1}, A_{2}\dots$, the union $\bigcup_{j=1}^{\infty} A_{j}$ is an evnet.
+- For every sequence of events $A_{1}, A_{2}\dots$, the union $\bigcup_{j=1}^{\infty} A_{j}$ is an event.
 
 # General definition of Probability
 A probability space consists of a sample space $S$ and a probability *function* $P$  which maps an event $A$ to a **real number** which is in $[0,1]$ 
@@ -38,3 +43,5 @@ For any events $A_{1}, A_{2}, \dots, A_{n}$:
 $$
 P\left( \bigcup_{i=1}^{n} A_{i} \right) = \sum_{i}P(A_{i}) - \sum_{i<j} P(A_{i} \cap A_{j}) + \sum_{i<j<k}P(A_{i} \cap A_{j} \cap A_{k}) + \dots + (-1)^{i+1}P(A_{1} \cap \dots \cap A_{n})
 $$
+
+Go back to [[probability_theory_menu]]

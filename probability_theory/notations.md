@@ -1,3 +1,9 @@
+---
+tags:
+  - knowledge
+  - probability-theory
+  - reference
+---
 # Set 
 - empty set: $\emptyset$
 - A is subset of  B: $A \subseteq B$
@@ -14,6 +20,7 @@ $$
 
 ---
 # Sample Space & Events
+For sample space *definition*, refer to [[sample_space]]
 ## Events and occurrences
 - sample space: $S$
 - s is a possible outcome: $s \in S$
@@ -36,4 +43,7 @@ $$
 
 ---
 # Conditional Probability
+For more about conditional probability, refer to [[conditional_probability]]
 - the **conditional** probability of $A$ given $B$: $P(A|B)$
+	- $P(A)$: prior probability of $A$
+	- $P(A|B)$: posterior probability of $A$

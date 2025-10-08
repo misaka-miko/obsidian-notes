@@ -1,3 +1,10 @@
+---
+tags:
+  - knowledge
+  - probability-theory
+  - reference
+  - utility
+---
 # Probability and Counting
 [[notations]]
 [[sample_space]]
