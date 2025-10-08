@@ -52,4 +52,5 @@ $$
 P(A \cap B | E) = P(A|E) P(B|E)
 $$
 **WARNING**: conditional independent $\neq$ independent
+**WARNING**: given $E$ conditional independent $\neq$  given $E^{c}$ conditional independent
 
