@@ -13,6 +13,8 @@ $$
 P(A|B) = \frac{P(A \cap B)}{P(B)}
 $$
 # Properties
+> Conditional Probability is still probability
+
 conditional probability still follow **similar** properties with normal probability
 - $0 \leq P(A|E) \leq  1$ with $P(S|E) = 1$ and $P(\emptyset | E) = 0$
 - For disjoint events $A_{1}, A_{2} \dots$, $P(\cup ^{\infty}_{j=1}A_{j}) = \sum_{j=1}^{\infty}P(A_{j})$

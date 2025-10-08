@@ -32,5 +32,24 @@ $$
 类似的互斥并不意味着独立
 
 # Properties
-> If $A$ and $B$ are independent, then $A^{c}$ and $B$ are independent, $A$ and $B^{c}$ are independent, 
-> $A^{c}$ and $B^{c}$ are independent
+## Independence of Complementary Set
+If $A$ and $B$ are independent, then $A^{c}$ and $B$ are independent, $A$ and $B^{c}$ are independent, 
+$A^{c}$ and $B^{c}$ are independent
+
+## Independence of Three events
+Events $A$, $B$, $C$ are independent if
+1. $P(A \cap B) = P(A)P(B)$
+2. $P(C \cap B) = P(C)P(B)$
+3. $P(A \cap C) = P(A)P(C)$
+4. $P(A \cap B\cap C) = P(A)P(B)P(C)$
+
+## Conditional Independence
+Like what I said in [[conditional_probability]], conditional probability is **somewhat** nothing special.
+
+> Events $A$ and $B$ are said to be conditionally independent given $E$ if:
+
+$$
+P(A \cap B | E) = P(A|E) P(B|E)
+$$
+**WARNING**: conditional independent $\neq$ independent
+
