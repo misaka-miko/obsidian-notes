@@ -54,3 +54,11 @@ $$
 **WARNING**: conditional independent $\neq$ independent
 **WARNING**: given $E$ conditional independent $\neq$  given $E^{c}$ conditional independent
 
+## Simplify Computing
+If events $A_{1}, A_{2},\dots,A_{n}$ are independent, then
+$$
+P(A_{1}\cap A_{2} \cap \dots \cap A_{n}) = \prod_{i=1}^{n}P(A_{i})
+$$
+$$
+P(A_{1} \cup A_{2}\cup\dots \cup A_{n}) = 1- \prod_{i=1}^{n}(1-P(A_{i}))
+$$
