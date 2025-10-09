@@ -16,3 +16,4 @@ tags:
 - [[notations]]
 - [[conditional_probability]]
 - [[independence]]
+- [[bayes_rule]]
