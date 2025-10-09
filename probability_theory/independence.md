@@ -44,7 +44,7 @@ Events $A$, $B$, $C$ are independent if
 4. $P(A \cap B\cap C) = P(A)P(B)P(C)$
 
 ## Conditional Independence
-Like what I said in [[conditional_probability]], conditional probability is **somewhat** nothing special.
+Like what I said in [[conditional_probability#Properties]], conditional probability is **somewhat** nothing special.
 
 > Events $A$ and $B$ are said to be conditionally independent given $E$ if:
 

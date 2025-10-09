@@ -17,3 +17,6 @@ tags:
 - [[conditional_probability]]
 - [[independence]]
 - [[bayes_rule]]
+
+---
+# Random Variables
