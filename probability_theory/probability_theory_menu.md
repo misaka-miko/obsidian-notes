@@ -21,3 +21,4 @@ tags:
 ---
 # Random Variables
 - [[random_variable]]
+- [[bernoulli_distribution]]
