@@ -1,3 +1,8 @@
+---
+tags:
+  - knowledge
+  - probability-theory
+---
 # Definition
 给定一个实验（样本空间$S$），一个随机变量(r.v.)是一个从样本空间$S$映射到实数$R$的函数
 
