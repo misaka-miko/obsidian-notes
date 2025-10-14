@@ -11,3 +11,8 @@ $$
 
 # Indicator Random Variable
 > 事件$A$的 *indicator random variable*是一个随机变量满足 $I(A)=1$若$A$发生，$A$的 indicator r.v. 记作 $I_A$或 $I(A)$。注意 $I_A \sim Bern(p)$其中 $p=P(A)$
+
+# Bernoulli Trial
+**Definition**：一个实验的结果要么是*成功*要么是*失败*，则我们称这个实验是 **Bernoulli trial**
+
+如果我们执行$n$次独立的Bernoulli trial，我们则将其称为[[binomial_distribution]]
