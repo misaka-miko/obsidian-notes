@@ -20,3 +20,4 @@ tags:
 
 ---
 # Random Variables
+- [[random_variable]]
