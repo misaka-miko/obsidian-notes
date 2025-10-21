@@ -31,6 +31,7 @@ tags:
 - [[random_variable]]
 - [[sample_space]]
 - [[story_proof]]
+- [[normal_distribution]]
 
 # Scripting
 - [[Regex]]
