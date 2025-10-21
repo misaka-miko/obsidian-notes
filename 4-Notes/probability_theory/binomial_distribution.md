@@ -1,8 +1,14 @@
+---
+tags:
+  - knowledge
+  - probability-theory
+---
 二项式分布：假设我们执行$n$次**独立的**伯努利实验，成功的概率为$p$。令$X$为成功的次数。$X$的分布叫作二项式分布(**Binomial Distribution**)，我们记作
+
 $$
 X \sim Bin(n,p)
 $$
-其中$n>0, 0<p<1$
+其中 $n>0,\ 0<p<1$
 
 # Binomial PMF
 若 $X \sim Bin(n,p)$，则有
