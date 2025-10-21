@@ -37,5 +37,5 @@ $$
 P(B) = \sum_{i=1}^{n}P(B|A_{i})P(A_{i})
 $$
 
-# Associated Contents
+# Reference
 - [[independence]]
