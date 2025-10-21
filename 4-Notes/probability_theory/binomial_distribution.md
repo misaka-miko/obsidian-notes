@@ -17,3 +17,9 @@ $$
 $$
 P(X = n-k) = \binom{n}{n-k}p^{n-k}q^{n-n+k} = \binom{n}{k}q^{k}p^{n-k} = P(n-X =k)
 $$
+# What about the limit?
+事实上，如果我们将二项分布的曲线画出来，比如说我们要统计扔$n$个硬币中$k$个正面朝上的概率，如果我们取一个不那么大的$n$值，（比如说40）我们可以得到如下曲线
+
+![binomial_curve](../../2-Sources/Assets/binom_curve.png)
+
+可以看到这已经非常接近**正态分布曲线**了，更多关于正态分布曲线的信息请参考[[normal_distribution]]
