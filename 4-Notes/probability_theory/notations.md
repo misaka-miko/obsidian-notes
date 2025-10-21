@@ -47,3 +47,13 @@ For more about conditional probability, refer to [[conditional_probability]]
 - the **conditional** probability of $A$ given $B$: $P(A|B)$
 	- $P(A)$: prior probability of $A$
 	- $P(A|B)$: posterior probability of $A$
+
+---
+# Random Variable
+- Random variable $X$ is distributed as: Using notation $\sim$
+- Random variable $X$ is distributed by **Bernoulli Distribution**: $X \sim Bern(p)$.
+	- $p$: The probability that Bernoulli trial $B$ succeed(say $B = 1$). 
+- Random variable $X$ is distributed by **Binomial Distribution**: $X \sim Bin(n, p)$
+- Random variable $X$ is distributed by **Normal Distribution**: $X \sim Norm(\mu ,\sigma^2 )$
+	- $\mu$: the expected value of $X$.
+	- $\sigma^2$: the variance, which is the **square** of the standard deviation.
