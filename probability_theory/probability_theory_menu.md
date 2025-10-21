@@ -22,4 +22,3 @@ tags:
 # Random Variables
 - [[random_variable]]
 - [[bernoulli_distribution]]
-- [[binomial_theorem]]
