@@ -8,8 +8,8 @@ tags:
 在这种情况下参考 [[poisson_distribution]]
 *For more about notation*: refer to [[notations]]
 
-# Probability Mass Function
-If we have r.v. $X \sim \mathcal{N}(np, npq)$, the `PMF` of $X$ is given as
+# Probability Density Function
+If we have r.v. $X \sim \mathcal{N}(np, npq)$, the `PDF` of $X$ is given as
 $$
 P(X = x) = \frac{1}{\sqrt{ 2 \pi  }\sigma } e^{-\frac{(x-\mu )^{2}}{2 \sigma^{2}}}
 $$
