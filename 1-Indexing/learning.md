@@ -32,6 +32,7 @@ tags:
 - [[sample_space]]
 - [[story_proof]]
 - [[normal_distribution]]
+- [[expected_value]]
 
 # Scripting
 - [[Regex]]
