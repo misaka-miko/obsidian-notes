@@ -9,6 +9,3 @@ tags:
 -  `norm J` 可以把后一行的内容追加到当前行末
 -  `norm K` 在没有任何插件的情况下会打开光标下的文字的文档
 	- 比如当你hover到Vim上并且使用 `norm K` 可以打开 `man vim`
-
-
-Go back to [[vim tricks]]

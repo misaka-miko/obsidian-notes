@@ -20,5 +20,3 @@ tags:
 	- 输入 `norm <normal mode command>` 来批量处理
 
 **That's it! : )**
-
-[[vim tricks]]
