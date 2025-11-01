@@ -19,3 +19,6 @@ $$
 E[X] = \int ^{\infty}_{-\infty} x \cdot  f(x) dx
 $$
 **NOTE**：关于 `PDF`, `PMF`等等的相关概念请参考 [[concept_explanation_for_probability_theory]]
+
+# Reference
+[[concept_explanation_for_probability_theory]]
