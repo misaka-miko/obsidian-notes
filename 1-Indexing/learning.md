@@ -33,6 +33,8 @@ tags:
 - [[story_proof]]
 - [[normal_distribution]]
 - [[expected_value]]
+- [[poisson_distribution]]
+- [[concept_explanation_for_probability_theory]]
 
 # Scripting
 - [[Regex]]
