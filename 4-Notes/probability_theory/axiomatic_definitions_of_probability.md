@@ -43,3 +43,6 @@ For any events $A_{1}, A_{2}, \dots, A_{n}$:
 $$
 P\left( \bigcup_{i=1}^{n} A_{i} \right) = \sum_{i}P(A_{i}) - \sum_{i<j} P(A_{i} \cap A_{j}) + \sum_{i<j<k}P(A_{i} \cap A_{j} \cap A_{k}) + \dots + (-1)^{i+1}P(A_{1} \cap \dots \cap A_{n})
 $$
+
+# References
+- [[learning]]

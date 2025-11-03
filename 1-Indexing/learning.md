@@ -15,6 +15,7 @@ tags:
 - [[dynamics]]
 - [[energy]]
 - [[kinematics]]
+- [[momentum]]
 
 # Probability Theory 
 - [[axiomatic_definitions_of_probability]]
