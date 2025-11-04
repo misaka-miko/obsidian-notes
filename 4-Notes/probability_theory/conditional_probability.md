@@ -30,6 +30,11 @@ $$
 P(A_{1},A_{2}\dots A_{n}) = P(A_{1})P(A_{2}|A_{1})\dots P(A_{n}|A_{1},A_{2},\dots ,A_{n-1})
 $$
 公式含义：$n$个事件同时发生本质上是第一件事情发生的概率 $\times$ 第二件事在第一件事发生下的条件概率 $\times \dots \times$ 第$n$件事在前$n-1$件事发生下的条件概率
+**Notation Explanation:**
+我们要表达两个事件同时发生可以用以下三种记号
+- $P(E \cap F)$
+- $P(E \text{ and }F$)
+- $P(E,F)$
 
 ## The Law Of Total Probability (全概率公式)
 给定 $A_{1}, A_{2},\dots,A_{n}$是$S$的一个划分
