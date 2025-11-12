@@ -16,6 +16,7 @@ tags:
 - [[energy]]
 - [[kinematics]]
 - [[momentum]]
+- [[first_cosmic_velocity]]
 
 # Probability Theory 
 - [[axiomatic_definitions_of_probability]]

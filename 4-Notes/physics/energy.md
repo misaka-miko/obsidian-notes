@@ -118,6 +118,21 @@ $E_{p}$：系统势能
 	1. 一维情况：$F_{x} = -\frac{dE_{p}}{dx}$
 	2. 三维情况：$F_{x} = -\frac{\partial E_{p}}{\partial x}, F_{y}=-\frac{\partial E_{p}}{\partial y}, F_{z}=-\frac{\partial E_{p}}{\partial z}$
 
+# 功能原理
+**动能定理:**
+$$
+A=\frac{1}{2}mv_{2}^{2}-\frac{1}{2}mv_{1}^{2}=E_{kb} - E_{ka}
+$$
+**保守力的势能**
+$$
+A_{p} =E_{pa} - E_{pb}
+$$
+对于总功，有$A=A_{N}+A_{p} = A_{N} - \Delta E_{p}$
+$A_{N}=\Delta E_{p}+\Delta E_{k}= (E_{pb} + E_{kb})-(E_{pa}+E_{ka})$
+若$A_{N} = 0$，则有$E_{pa}+E_{ka} = E_{pb} +E_{kb}$
+
+## 如何使用
+参考[[first_cosmic_velocity]]
 
 # 质点系
 与质点不同，质点系内质点之间可以有相互作用力
