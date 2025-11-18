@@ -45,3 +45,8 @@ tags:
 - [[Capital keys in vim]]
 - [[vim norm]]
 - [[Vim read command]]
+
+# General Theory of Science and Technology Civilization
+- [[tech_of_old_stone_age]]
+- [[encephalization]]
+- [[where_is_Neanderthal]]
