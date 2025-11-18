@@ -50,3 +50,5 @@ tags:
 - [[tech_of_old_stone_age]]
 - [[encephalization]]
 - [[where_is_Neanderthal]]
+- [[tech_of_new_stone_age]]
+- [[effect_of_agriculture]]
