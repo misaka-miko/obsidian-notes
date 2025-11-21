@@ -42,9 +42,9 @@ tags:
 - [[Regex]]
 
 # Vim 
-- [[Capital keys in vim]]
-- [[vim norm]]
-- [[Vim read command]]
+- [[capital_keys_in_vim]]
+- [[vim_norm]]
+- [[vim_read_command]]
 
 # General Theory of Science and Technology Civilization
 - [[tech_of_old_stone_age]]
@@ -53,3 +53,4 @@ tags:
 - [[tech_of_new_stone_age]]
 - [[effect_of_agriculture]]
 - [[tech_of_bronze_age]]
+- [[science_of_ancient_greece]]
