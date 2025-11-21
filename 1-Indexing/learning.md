@@ -52,3 +52,4 @@ tags:
 - [[where_is_Neanderthal]]
 - [[tech_of_new_stone_age]]
 - [[effect_of_agriculture]]
+- [[tech_of_bronze_age]]
