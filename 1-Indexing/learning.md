@@ -54,3 +54,5 @@ tags:
 - [[effect_of_agriculture]]
 - [[tech_of_bronze_age]]
 - [[science_of_ancient_greece]]
+- [[early_middle_age]]
+- [[islamic_golden_age]]
