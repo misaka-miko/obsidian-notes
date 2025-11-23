@@ -56,3 +56,4 @@ tags:
 - [[science_of_ancient_greece]]
 - [[early_middle_age]]
 - [[islamic_golden_age]]
+- [[renaissance]]
