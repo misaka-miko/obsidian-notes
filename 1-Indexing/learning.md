@@ -59,3 +59,4 @@ tags:
 - [[renaissance]]
 - [[the_reformation]]
 - [[scientfic_revolution]]
+- [[development_of_anthropotomy]]
