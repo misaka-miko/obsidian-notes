@@ -57,3 +57,5 @@ tags:
 - [[early_middle_age]]
 - [[islamic_golden_age]]
 - [[renaissance]]
+- [[the_reformation]]
+- [[scientfic_revolution]]
