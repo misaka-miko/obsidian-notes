@@ -17,9 +17,6 @@ tags:
 - 从**马丁路德**开始，其他改革者紧随其后
 - 宗教改革导致**新教和罗马天主教的分离**
 
-# Idea 
-**NOTE**: this is for something that worth note
-
 # References
 - [[learning]]
 - [[renaissance]]
