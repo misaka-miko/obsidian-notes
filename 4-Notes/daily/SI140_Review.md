@@ -34,4 +34,6 @@ tags:
 - 联合分布
 	- marginalization：本质就是*积分*操作
 	- conditional `PMF`
-	- correlation(协方差)
+	- corvariance correlation
+- **L7涉及的不等式**
+- 重点关注**L8**和**L9**
