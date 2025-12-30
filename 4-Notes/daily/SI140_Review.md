@@ -25,10 +25,13 @@ tags:
 	- **泊松分布**：不直接涉及，重点关注性质
 	- **均匀分布**
 	- 正态分布：标准正态分布的形式**很重要**
+	- **多维正态分布**：构造方法需要关注
 - `CDF` v.s. `PDF` v.s. `PMF` [[concept_explanation_for_probability_theory]]
 - **Fundamental Bridge between expectation and probability**
 - `LOTUS`
+- General Bayes
 - **中心极限定理**
 - 联合分布
 	- marginalization：本质就是*积分*操作
-	- Conditional `PMF`
+	- conditional `PMF`
+	- correlation(协方差)
