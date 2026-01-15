@@ -46,6 +46,9 @@ tags:
 - [[vim_norm]]
 - [[vim_read_command]]
 
+# Git
+- [[git_basics]]
+
 # General Theory of Science and Technology Civilization
 - [[tech_of_old_stone_age]]
 - [[encephalization]]
