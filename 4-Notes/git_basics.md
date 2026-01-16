@@ -145,3 +145,35 @@ f4d1b2d - misaka, 3 weeks ago : feat!: build percolation class to simulate the p
 - `git log --since/--until=<date>`：按时间筛选 
 - `git log --author=<author-name>`：按作者筛选
 - `git log -- <path/to/file>`：筛选出对特定文件有更改的提交
+
+## Undoing Things
+
+你知道git是一个强大的版本管理工具，但是在我们之前根本没有谈**回退**的问题，如果我做了一些错误的操作该怎么补救：
+- `git commit --amend`：你粗心的*漏提交*了某些文件，你还不小心打错了提交信息，为了掩盖这个令人尴尬的错误，请使用该命令
+	- 请不要 `git commit --amend` 后直接强制推送，会对合作者造成**非常严重**的问题
+
+## Unstaging a Staged File 
+
+如何unstage一个文件：
+
+```bash
+git reset HEAD <filename>
+```
+
+**TIPS**：事实上新版的git有更好懂的命令：
+```bash
+git restore --staged <filename>
+```
+
+## Unmodifying a Modified File 
+
+如果你不想要保留你对某个文件的更改，请运行：
+```bash
+git checkout -- <filename>
+```
+
+**NOTE**：如果一个文件没有被git追踪，它的处境是**及其危险的**，`git checkout -- <filename>`会丢失所有本地对这个文件的更改
+**TIPS**：事实上新版的git有更好懂的命令：
+```bash
+git restore <filename>
+```
