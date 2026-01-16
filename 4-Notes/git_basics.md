@@ -137,3 +137,11 @@ f4d1b2d - misaka, 3 weeks ago : feat!: build percolation class to simulate the p
 9901a0c - misaka, 3 weeks ago : chore: ignore some test file
 45efb12 - misaka, 4 weeks ago : test: add test
 ```
+
+## Limiting Log Output
+
+大部分时候我们并不希望有完整的提交日志，我们可以通过以下方法筛选
+- `git log -<n>`：显示前$n$条提交记录
+- `git log --since/--until=<date>`：按时间筛选 
+- `git log --author=<author-name>`：按作者筛选
+- `git log -- <path/to/file>`：筛选出对特定文件有更改的提交
