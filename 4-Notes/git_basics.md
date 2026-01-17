@@ -3,7 +3,7 @@ tags:
   - knowledge
   - git
 ---
-	# Git Basics
+# Git Basics
 
 在这个笔记中我们会涵盖基本的 `git` 用法，这些用法基本上会跟随你的 `git` 使用生涯。
 
