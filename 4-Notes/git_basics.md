@@ -3,7 +3,7 @@ tags:
   - knowledge
   - git
 ---
-# Git Basics
+	# Git Basics
 
 在这个笔记中我们会涵盖基本的 `git` 用法，这些用法基本上会跟随你的 `git` 使用生涯。
 
@@ -176,4 +176,94 @@ git checkout -- <filename>
 **TIPS**：事实上新版的git有更好懂的命令：
 ```bash
 git restore <filename>
+```
+
+## Working Remotely
+
+远程的git仓库是我们关心的事情，以下包含一些相关的工具
+- `git remote`查看当前仓库的远程名称
+	- `git remote -v`：显示远程的*url*
+- `git remote add <shortname> <url>`：添加远程地址
+	- 比如 `git remote add pb https://github.com/pb/test.git` 添加 `pb` 作为远程别名后就可以作为远程*url*的别名
+
+### Fetching and Pulling from Your Remotes
+
+如果想要获取远程仓库的数据：
+```bash
+git fetch <remote>
+```
+**NOTE**：`git fetch`不会自动合并你的更改，你需要手动合并
+
+**TIP**：如果你的分支被设置为追踪远程分支，你可以直接使用 `git pull`来自动下载和合并变更，但是要设置 `git config pull.rebase`
+
+### Pushing to Your Remotes
+
+当你希望将你的变更分享到远程仓库时，使用
+```bash
+git push <remote> <branch>
+```
+
+**NOTE**：如果你正在和别人合作，你没有办法和他**同时推送**，你需要将他的更改整合进你的更改中才可以推送
+
+### Inspecting a Remote
+
+为了获取更多关于远程仓库的信息：
+```bash
+git remote show <remote>
+```
+
+### Renaming and Removing Remotes
+
+使用 `git remote rename`来重新命名一个远程的*short name*：
+```bash
+git remote rename pb paul
+git remote
+origin
+paul
+```
+
+用 `git remote remove` 来删除一个远程
+```bash
+git remote remove paul
+git remote
+origin
+```
+
+## Tagging
+
+什么时候*tag*：仓库代码有**重要更新**的时候
+以下包含一些git关于tag的功能：
+- `git tag`：列出现有的*tag*
+	- `git tag -l <pattern>`：可以筛选出符号特定模式的*tag*
+- `git tag -a <tagname> -m <message>`：创建一个*annotated tag*
+- `git show <tagname>`：查看一个*tag*的相关信息
+- `git tag <tagname>`：会直接创建一个*lightweight tag*，基本上就是一个提交的哈希值
+- `git tag <hash>`：你可以在之后给之前的某个提交*tag*
+- `git push <remote> <tagname>`：你需要显示的推送tag到远程仓库
+	- 如果你有很多tag要推送，请使用`git push origin --tags`
+- `git tag -d <tagname>`：本地删除一个tag'
+	- `git push <remote> :refs/tags/<tagname>`：删除一个远程的tag
+	- `git push <remote> -- delete <tagname>`
+- `git checkout <tagname>`：切换到tag指向的版本
+	- **NOTE**：这会导致*头分离*，有一些不好的副作用
+	- *头分离*状态下你做出的commit不属于任何分支，并且只能通过哈希值访问，如果一定要作出变更，请这么做：`git checkout -b <branchname> <tagname>`
+
+## Git Aliases
+
+类似于我们在shell中可以给命令添加别名，`git config`也支持这么做：
+```bash
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+```
+
+这非常好用，可以创建出更符合你直觉的命令
+```bash
+git config --global alias.unstage 'reset HEAD --'
+```
+
+你也可以创建一个 `last` 命令
+```bash
+git config --global alias.last 'log -1 HEAD'
 ```
