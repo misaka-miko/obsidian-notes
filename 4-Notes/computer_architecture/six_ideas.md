@@ -1,7 +1,10 @@
 ---
 tags:
-  - CA
   - knowledge
+category: computer architecture
+topic: computer architecture
+author: misaka
+date: 2026-01-20
 ---
 # Six Great Ideas in CA
 1. Abstraction **(Layers of Representation)**

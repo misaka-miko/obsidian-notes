@@ -7,6 +7,8 @@ tags:
 - [[base_conversion]]
 - [[bits_for_everything]]
 - [[six_ideas]]
+- [[C_basics]]
+- [[C_Memeory_Management]]
 
 # Linux Usage
 - [[pacman_usage]]

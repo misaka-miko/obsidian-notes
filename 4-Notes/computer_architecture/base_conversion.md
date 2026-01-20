@@ -1,7 +1,10 @@
 ---
 tags:
   - knowledge
-  - CA
+category: computer architecture
+topic: base conversion
+author: misaka
+date: 2026-01-20
 ---
 So how to use count numbers **MATTERS**, we will talk about base conversions about:
 - decimal

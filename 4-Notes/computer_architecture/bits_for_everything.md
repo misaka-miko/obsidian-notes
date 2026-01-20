@@ -1,3 +1,11 @@
+---
+tags:
+  - knowledge
+category: computer architecture
+topic: computer architecture
+author: misaka
+date: 2026-01-20
+---
 # Using bits to store things
 **IDEA** : when we say *n bits* we are talking about to store $2^{n}$ stuff.
 

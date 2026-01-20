@@ -1,7 +1,7 @@
 ---
 tags:
   - knowledge
-category: compute architecture
+category: computer architecture
 topic: language basics
 author: misaka
 date: "2026·Monday: 01/19"
