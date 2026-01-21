@@ -7,3 +7,4 @@ author: misaka
 created:
   - "{{date}} {{time}}"
 ---
+👉 Go back to [[learning]]
