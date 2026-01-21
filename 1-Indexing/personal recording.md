@@ -2,7 +2,6 @@
 tags:
   - reference
   - utility
+category: index
 ---
-
-# Daily Note
 - [[SI140_Review]]

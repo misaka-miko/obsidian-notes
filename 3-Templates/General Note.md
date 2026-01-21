@@ -4,5 +4,6 @@ tags:
 category:
 topic:
 author: misaka
-date: "{{date}}"
+created:
+  - "{{date}} {{time}}"
 ---

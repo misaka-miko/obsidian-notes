@@ -2,8 +2,9 @@
 tags:
   - reference
   - utility
+category: index
 ---
-# Computer Architecture
+	# Computer Architecture
 - [[base_conversion]]
 - [[bits_for_everything]]
 - [[six_ideas]]
