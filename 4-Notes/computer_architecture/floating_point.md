@@ -73,3 +73,94 @@ $$
 - exponent: $0$
 - significand: $0$
 - sign bit: 你可以注意到有趣的地方了，我们有两个$0$
+
+### How to deal with Exponent 
+我们之前提到了指数$0$专门为了表示$0$这个数，但是这合理吗，我可能更希望指数的最小位表达了一个负数，这样我就可以有$2^{-x x x}$，可以表达某个小数，这不是更直观一些吗
+- 更大的整数指数就是更大的数字
+- 较小的表达分数
+- 这就是为什么*2's complement*不能满足我们的要求：负数的表达看起来更大
+- **更聪明的做法**：直接将我们实际的表达范围(比如说*0 - 255*)，减去一个*bias*，向下平移
+
+我们有了这样的公式
+$$
+(-1)^{s} \times (1+\text{Significand}) \times 2^{\text{Exponent} - 127}
+$$
+其中$\text{bias} = 2^{8-1}-1 = 127$
+
+# Special Numbers 
+事实上，在我们之前定义浮点数中的$0$的时候，我们就可以发现似乎我们对于浮点数的存储方式的一些**边界情况**更加复杂
+
+## Infinity
+无穷是非常好用的，比如我们想要做一些迭代的*max*操作，那么我们选的初始值是什么？
+很显然$-\infty$非常合理
+
+IEEE 754如何表达 $\pm \infty$：
+- 保留最大的指数：$2^{8} -1$
+- significand都是$0$
+
+为什么尾数是$0$：
+我们认为$\infty$应该是最大的浮点数加1：
+$$
+1.111\dots 1_{2} \times 2^{11111110_{2}}+1 = 1.000\dots 0 \times 2^{111\dots 1}
+$$
+
+## Zero 
+怎么表达$0$：
+- 指数都是$0$
+- 尾数都是$0$
+- 符号位都是有效的
+
+## Representation of Not a Number 
+假如我们要计算 `sqrt(-4.0)` 或者 $\frac{0}{0}$？
+- 假如说$\infty$不是一个错误(*overflow*)，那么这些也不应该是
+- 称为**N**ot **a** **N**umber *NaN*
+- 指数$255$，尾数非零
+
+为什么NaN有用？
+- 帮助调试
+- contaminate: `op(NaN, X) = NaN`
+- 可以用不同的尾数表达不同的NaN
+
+## Representation of Denorms
+事实上，我们能表达的最小的FP和零之间还是有间隙
+- 最小的可表达的positive FP
+	- $a = 1.0\dots_{2} \times 2^{-126}=2^{-126}$
+- 第二小的可表达的positive FP
+	- $b = 1.000\dots 1_{2} \times 2^{-126}=2^{-126} + 2^{-149}$
+- $a-0 = 2^{-126}$
+- $b-a = 2^{-149}$
+
+我们怎么解决这个巨大的gap？**Denormalization**：
+- no implicit leading $1$, implicit exponent $-126$
+- 最小的可表达的正数：
+	- $a = 2^{-149}$
+- 第二小的可表达的正数：
+	- $b=2^{-148}$
+## Table of special numbers
+| exponent | significand | object        |
+| -------- | ----------- | ------------- |
+| 0        | 0           | 0             |
+| 0        | nonzero     | Denorms       |
+| 1-254    | anything    | +/- fl. pt. # |
+| 255      | 0           | $\pm \infty$  |
+| 255      | nonzero     | NaN           |
+
+# Floating Point Issues
+浮点运算不满足**结合律**：
+- 如果我们用一个非常大的浮点数，比如说$1.5\times 10^{38}$，去加一个非常小的浮点数，比如$1.0$，我们会有精度损失
+- 对于大浮点数，它的步进远大于$1.0$，其实就是**没有足够的精度**去储存相对微小的变化
+
+## Precision and Accuracy
+- *Precision* is a count of the number bits in used to represent a number
+- *Accuracy* is the difference between the actual value of a number and its computer representation
+- 高精度**允许**高准确度，但是**不保证**高准确度
+
+## IEEE Rounding Modes
+- 向$+\infty$舍入：
+	- Always Up
+- 向$-\infty$舍入：
+	- Always Down
+- 截断(*truncate*)
+	- 直接丢掉最后一位 (round towards $0$)
+- 无偏(*unbiased*)，在中间的话就舍入为偶数
+	- $2.4 \to 2$, $2.6 \to 3$, $2.5 \to 2$, $3.5 \to 4$
