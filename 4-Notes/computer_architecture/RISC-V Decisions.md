@@ -26,10 +26,10 @@ addi rd, rs1, imm
 
 ## **Load from** and **Store to** Memory
 
-![processor_memory_graph](processor_memory_graph.png)
+![[Drawing 2026-01-26 18.46.09.excalidraw.png]]
 
 - 一般来说数据都是小于$32$ bits的，但是很少会小于$8$ bits，如果是$8$ bits的整数倍可以工作的很好。
-- $8$ bit chunk被称为一个字节(*byte*)
+	- $8$ bit chunk被称为一个字节(*byte*)
 	- $1$ word = $4$ bytes
 - 内存地址是用*byte*计数的，而不是*word*
 - 我们怎么把word存进内存中呢
@@ -123,3 +123,28 @@ addi x11, x11, 1
 j Loop
 Done:
 ```
+
+## Logical Instructions
+| Logical operations  | C operators | RISC-V instructions |
+| ------------------- | ----------- | ------------------- |
+| bitwise AND         | &           | and                 |
+| bitwise OR          | \|          | or                  |
+| bitwise XOR         | ^           | xor                 |
+| shift left logical  | <<          | sll                 |
+| shift right logical | >>          | srl                 |
+
+逻辑指令总是有两个变体：
+- 寄存器：`and x5, x6, x7`
+- 寄存器：`andi x5, x6, 3`
+
+作为掩码(*mask*)使用：
+- `andi` with `0x0000 00FF` isolates the least significant byte
+- `andi` with `0xFF00 0000` isolates the most significant byte
+
+逻辑NOT没有相应的指令
+- 直接`xor` $11111111_{\text{two}}$
+
+逻辑右移，逻辑左移和算数右移
+- 逻辑左移(`sll/slli`)：整体左移，低位填充$0$
+- 逻辑右移(`srl/srli`)：整体右移，高位填充$0$
+- 算数右移(`sra/srai`)：整体右移，高位填充**符号位**
