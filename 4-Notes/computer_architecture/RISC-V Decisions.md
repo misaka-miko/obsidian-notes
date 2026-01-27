@@ -7,7 +7,7 @@ author: misaka
 created:
   - 2026-01-25 22:12
 ---
-👉 Go back to [[learning]]
+	👉 Go back to [[learning]]
 
 # Storing Data in Memory
 ## Review: RV32 So Far
